@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+html{
+background-color: black;
+color: white;
+font-family: 'Raleway', sans-serif;
+}
+
+.index{
+font-size: 100px;
+text-decoration: none;
+font-weight: 100%;
+}
+
+.index2{
+font-size: 40px;
+}
+
+.form{
+font-size: 15px;
+font-weight: 200%;	
+}
+
+.results{
+font-size: 120px;
+}
+
+.results2{
+	font-size: 80px;
+}

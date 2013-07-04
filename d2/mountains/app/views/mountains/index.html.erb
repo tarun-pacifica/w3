@@ -1,0 +1,12 @@
+<p>gday and welcome to mountains</p>
+
+the number one online resource for mountain statistics
+
+<p><button><a href="/mountains/new">Add new mountain data</a></button></p>
+
+<button><a href="/mountains/show">View all current mountain data</a></button>
+
+<% @mountains.each do |mountain| %>
+	<%= mountain.name %> has <%= mountain.deaths %>.
+	<br>
+<%	end %>

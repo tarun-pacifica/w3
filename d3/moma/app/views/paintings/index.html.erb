@@ -1,0 +1,7 @@
+<% @paintings.each do |painting| %>
+<ul>
+<!-- <li><%= image_tag(painting.image) %></li>
+ --><li><%= link_to(painting.title, painting) %></li>
+<!-- <li><%= painting.medium %></li>
+ --></ul>
+<% end %>
