@@ -24,11 +24,11 @@ ActiveRecord::Schema.define(:version => 20130704021240) do
 
   create_table "ingredients", :force => true do |t|
     t.string   "name"
-    t.string   "measurements"
+    t.string   "measurement"
     t.decimal  "cost"
     t.text     "image"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "ingredients_recipes", :id => false, :force => true do |t|
